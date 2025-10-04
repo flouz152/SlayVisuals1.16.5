@@ -49,5 +49,17 @@ public class AddonsTab implements SlayTab {
         Fonts.montserrat.drawText(stack, "im.slayclient.addon.SlayAddon", x + 8, documentationY + 10, -1, 7, 0.05f);
         Fonts.montserrat.drawText(stack, "Context: SlayAddonContext provides Minecraft + Expensive access", x + 8, documentationY + 20, ColorUtils.rgba(170, 170, 180, 220), 6, 0.05f);
         Fonts.montserrat.drawText(stack, "Use services loader and java 19 language features freely.", x + 8, documentationY + 30, ColorUtils.rgba(150, 150, 160, 220), 6, 0.05f);
+
+        float rejectedY = documentationY + 50;
+        List<java.io.File> rejected = SlayClient.getInstance().getAddonManager().getRejectedAddons();
+        if (!rejected.isEmpty()) {
+            DisplayUtils.drawRoundedRect(x, rejectedY - 8, width, 48, 6, ColorUtils.rgba(34, 26, 30, 160));
+            Fonts.montserrat.drawText(stack, "Rejected Addons", x + 8, rejectedY, ColorUtils.rgba(230, 120, 120, 220), 6, 0.05f);
+            rejectedY += 12;
+            for (java.io.File file : rejected) {
+                Fonts.montserrat.drawText(stack, file.getName() + " (requires Java 19 class files)", x + 8, rejectedY, ColorUtils.rgba(210, 120, 120, 220), 6, 0.05f);
+                rejectedY += 10;
+            }
+        }
     }
 }

@@ -6,6 +6,7 @@ import net.minecraft.client.Minecraft;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.nio.file.Files;
@@ -24,7 +25,10 @@ import java.util.jar.JarFile;
 public final class AddonManager {
 
     private final File addonDirectory;
+    private static final int JAVA_19_MAJOR_VERSION = 63;
+
     private final List<AddonDescriptor> loadedAddons = new ArrayList<>();
+    private final List<File> rejectedAddons = new ArrayList<>();
 
     public AddonManager(File addonDirectory) {
         this.addonDirectory = addonDirectory;
@@ -36,21 +40,27 @@ public final class AddonManager {
 
     public void discoverAddons() {
         loadedAddons.clear();
+        rejectedAddons.clear();
         File[] jars = addonDirectory.listFiles((dir, name) -> name.toLowerCase().endsWith(".jar"));
         if (jars == null) {
             return;
         }
         for (File jar : jars) {
             try {
-                loadAddonJar(jar);
+                if (!loadAddonJar(jar)) {
+                    rejectedAddons.add(jar);
+                }
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
     }
 
-    private void loadAddonJar(File jarFile) throws IOException {
+    private boolean loadAddonJar(File jarFile) throws IOException {
         try (JarFile jar = new JarFile(jarFile)) {
+            if (!isJava19OrNewer(jar)) {
+                return false;
+            }
             URL[] urls = {jarFile.toURI().toURL()};
             try (URLClassLoader classLoader = new URLClassLoader(urls, getClass().getClassLoader())) {
                 ServiceLoader<SlayAddon> serviceLoader = ServiceLoader.load(SlayAddon.class, classLoader);
@@ -65,6 +75,7 @@ public final class AddonManager {
                 }
             }
         }
+        return true;
     }
 
     public List<String> listContainedClasses(File jarFile) {
@@ -80,6 +91,10 @@ public final class AddonManager {
         } catch (IOException ignored) {
         }
         return entries;
+    }
+
+    public List<File> getRejectedAddons() {
+        return ImmutableList.copyOf(rejectedAddons);
     }
 
     public void writeTemplateAddon() {
@@ -98,5 +113,33 @@ public final class AddonManager {
             Files.write(template.toPath(), lines);
         } catch (IOException ignored) {
         }
+    }
+
+    private boolean isJava19OrNewer(JarFile jarFile) throws IOException {
+        Enumeration<JarEntry> enumeration = jarFile.entries();
+        while (enumeration.hasMoreElements()) {
+            JarEntry entry = enumeration.nextElement();
+            if (entry.isDirectory() || !entry.getName().endsWith(".class")) {
+                continue;
+            }
+            try (InputStream stream = jarFile.getInputStream(entry)) {
+                byte[] header = new byte[8];
+                if (stream.read(header) < 8) {
+                    continue;
+                }
+                int magic = ((header[0] & 0xFF) << 24)
+                        | ((header[1] & 0xFF) << 16)
+                        | ((header[2] & 0xFF) << 8)
+                        | (header[3] & 0xFF);
+                if (magic != 0xCAFEBABE) {
+                    continue;
+                }
+                int major = ((header[6] & 0xFF) << 8) | (header[7] & 0xFF);
+                if (major < JAVA_19_MAJOR_VERSION) {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 }
