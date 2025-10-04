@@ -36,6 +36,7 @@ import im.expensive.utils.TPSCalc;
 import im.expensive.utils.client.ServerTPS;
 import im.expensive.utils.drag.DragManager;
 import im.expensive.utils.drag.Dragging;
+import im.slayclient.SlayClient;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -199,6 +200,8 @@ public class Expensive {
         autoBuyHandler = new AutoBuyHandler();
         autoBuyConfig = new AutoBuyConfig();
 
+        SlayClient.getInstance().initialize();
+
         eventBus.register(this);
     }
 
@@ -210,6 +213,14 @@ public class Expensive {
         eventBus.post(eventKey);
 
         macroManager.onKeyPressed(key);
+
+        if (key == GLFW.GLFW_KEY_ESCAPE) {
+            Minecraft minecraft = Minecraft.getInstance();
+            if (minecraft.currentScreen == null) {
+                SlayClient.getInstance().openScreen();
+                return;
+            }
+        }
 
         if (key == GLFW.GLFW_KEY_RIGHT_SHIFT) {
             Minecraft.getInstance().displayGuiScreen(dropDown);
