@@ -26,34 +26,51 @@ public class PanelStyle extends Panel {
 
     @Override
     public void render(MatrixStack stack, float mouseX, float mouseY) {
-        float header = 55 / 2f;
-        float headerFont = 9;
+        float header = 44f;
+        float footer = 30f;
+        float headerFont = 8.5f;
         setAnimatedScrool(MathUtil.fast(getAnimatedScrool(), getScroll(), 10));
 
-        DisplayUtils.drawRoundedRect(x, y, width, header, new Vector4f(7, 0, 7, 0), ColorUtils.rgba(23, 23, 23, (int) (255 * 0.43)));
+        DisplayUtils.drawRoundedRect(x, y, width, height, new Vector4f(12, 12, 12, 12),
+                ColorUtils.rgba(11, 11, 15, (int) (255 * 0.75)));
 
-        DisplayUtils.drawRoundedRect(x, y, width, height, new Vector4f(7, 7, 7, 7), ColorUtils.rgba(17, 17, 17, (int) (255 * 0.65)));
+        DisplayUtils.drawRoundedRect(x + 1, y + 1, width - 2, height - 2, new Vector4f(10, 10, 10, 10),
+                ColorUtils.rgba(6, 6, 9, (int) (255 * 0.8)));
 
-        DisplayUtils.drawRectHorizontalW(x, y, width, header, ColorUtils.rgba(17, 17, 17, 64), ColorUtils.rgba(17, 17, 17, 0));
+        DisplayUtils.drawRoundedRect(x, y, width, header, new Vector4f(12, 12, 8, 8),
+                ColorUtils.rgba(24, 24, 32, (int) (255 * 0.92)));
 
-        DisplayUtils.drawRectVerticalW(x, y + header, width, 0.5f, ColorUtils.rgb(24, 24, 30), ColorUtils.rgb(32, 34, 40));
-        Fonts.montserrat.drawCenteredText(stack, getCategory().name(), x + width / 2f, y + header / 2f - Fonts.montserrat.getHeight(headerFont) / 2f - 1, ColorUtils.rgb(161, 164, 177), headerFont, 0.1f);
+        DisplayUtils.drawRectVerticalW(x, y, width, header,
+                ColorUtils.rgba(255, 177, 86, 70), ColorUtils.rgba(255, 99, 147, 45));
+
+        DisplayUtils.drawRoundedRect(x + 6, y + header - 1.5f, width - 12, 1.5f, new Vector4f(1, 1, 1, 1),
+                ColorUtils.rgba(255, 255, 255, 35));
+
+        Fonts.montserrat.drawText(stack, getCategory().name(), x + 12,
+                y + header / 2f - Fonts.montserrat.getHeight(headerFont) / 2f, ColorUtils.rgb(194, 198, 214), headerFont,
+                0.1f);
+
+        Fonts.montserrat.drawText(stack, "Switch looks in a click", x + 12,
+                y + header / 2f + Fonts.montserrat.getHeight(6.5f) / 2f + 2, ColorUtils.rgb(97, 103, 130), 6.5f, 0.1f);
+
         drawOutline();
-        if (max > height - header - 10) {
-            setScroll(MathHelper.clamp(getScroll(), -max + height - header - 10, 0));
-            setAnimatedScrool(MathHelper.clamp(getAnimatedScrool(), -max + height - header - 10, 0));
+
+        if (max > height - header - footer - 10) {
+            setScroll(MathHelper.clamp(getScroll(), -max + height - header - footer - 10, 0));
+            setAnimatedScrool(MathHelper.clamp(getAnimatedScrool(), -max + height - header - footer - 10, 0));
         } else {
             setScroll(0);
             setAnimatedScrool(0);
         }
+
         float animationValue = (float) DropDown.getAnimation().getValue() * DropDown.scale;
 
         float halfAnimationValueRest = (1 - animationValue) / 2f;
-        float height = getHeight();
+        float contentHeight = getHeight() - header - footer;
         float testX = getX() + (getWidth() * halfAnimationValueRest);
-        float testY = getY() + 65 / 2f + (height * halfAnimationValueRest);
+        float testY = getY() + header + (contentHeight * halfAnimationValueRest);
         float testW = getWidth() * animationValue;
-        float testH = height * animationValue;
+        float testH = contentHeight * animationValue;
 
         testX = testX * animationValue + ((Minecraft.getInstance().getMainWindow().getScaledWidth() - testW) * halfAnimationValueRest);
         Scissor.push();
@@ -61,35 +78,49 @@ public class PanelStyle extends Panel {
         int offset = 0;
 
         boolean hovered = false;
+        float cardHeight = 34f;
+        float cardSpacing = 10f;
+
         for (Style style : Expensive.getInstance().getStyleManager().getStyleList()) {
-            float x = this.x + 5;
-            float y = this.y + header + 5 + offset * (57 / 2f + 5) + getAnimatedScrool();
-            if (MathUtil.isHovered(mouseX, mouseY, x + 5, y + 13, width - 10 - 10, 23 / 2f)) {
-                hovered = true;
+            float cardX = this.x + 8;
+            float cardY = this.y + header + 8 + offset * (cardHeight + cardSpacing) + getAnimatedScrool();
+            float cardWidth = width - 16;
+
+            boolean current = Expensive.getInstance().getStyleManager().getCurrentStyle() == style;
+            boolean cardHovered = MathUtil.isHovered(mouseX, mouseY, cardX, cardY, cardWidth, cardHeight);
+            hovered |= cardHovered;
+
+            float alpha = current ? 0.85f : (cardHovered ? 0.7f : 0.55f);
+
+            DisplayUtils.drawRoundedRect(cardX, cardY, cardWidth, cardHeight, new Vector4f(10, 10, 10, 10),
+                    ColorUtils.rgba(20, 22, 34, (int) (255 * alpha)));
+
+            DisplayUtils.drawRoundedRect(cardX + 1, cardY + 1, cardWidth - 2, cardHeight - 2, new Vector4f(8, 8, 8, 8),
+                    ColorUtils.rgba(10, 11, 18, (int) (255 * alpha)));
+
+            if (current) {
+                DisplayUtils.drawRoundedRect(cardX - 1.5f, cardY - 1.5f, cardWidth + 3, cardHeight + 3,
+                        new Vector4f(11, 11, 11, 11), ColorUtils.rgba(93, 122, 255, 55));
             }
 
+            Fonts.montserrat.drawText(stack, style.getStyleName(), cardX + 12, cardY + 8, ColorUtils.rgb(202, 206, 223), 7f,
+                    0.05f);
 
-            DisplayUtils.drawRoundedRect(x + 0.5f, y + 0.5f, width - 10 - 1, 57 / 2f - 1, new Vector4f(7, 7, 7, 7), ColorUtils.rgba(17, 17, 17, (int) (255 * 0.33)));
-            Stencil.initStencilToWrite();
+            Fonts.montserrat.drawText(stack, "Preset blend", cardX + 12, cardY + cardHeight - 10,
+                    ColorUtils.rgb(108, 116, 142), 6f, 0.05f);
 
-            DisplayUtils.drawRoundedRect(x + 0.5f, y + 0.5f, width - 10 - 1, 57 / 2f - 1, new Vector4f(7, 7, 7, 7), ColorUtils.rgba(17, 17, 17, (int) (255 * 0.33)));
+            float previewWidth = 60f;
+            float previewHeight = cardHeight - 12;
+            float previewX = cardX + cardWidth - previewWidth - 10;
+            float previewY = cardY + (cardHeight - previewHeight) / 2f;
 
-            Stencil.readStencilBuffer(0);
+            DisplayUtils.drawRoundedRect(previewX, previewY, previewWidth, previewHeight, new Vector4f(6, 6, 6, 6),
+                    new Vector4i(style.getFirstColor().getRGB(), style.getFirstColor().getRGB(),
+                            style.getSecondColor().getRGB(), style.getSecondColor().getRGB()));
 
-            DisplayUtils.drawRoundedRect(x, y, width - 10, 57 / 2f, new Vector4f(7, 7, 7, 7), new Vector4i(ColorUtils.rgb(48, 53, 60), ColorUtils.rgb(0, 0, 0), ColorUtils.rgb(48, 53, 60), ColorUtils.rgb(0, 0, 0)));
-
-            Stencil.uninitStencilBuffer();
-
-            Fonts.montserrat.drawText(stack, style.getStyleName(), x + 5, y + 5, -1, 6f, 0.05f);
-
-            y += 1;
-
-            if (Expensive.getInstance().getStyleManager().getCurrentStyle() == style) {
-                DisplayUtils.drawShadow(x + 5, y + 13, width - 10 - 10, 23 / 2f, 12, style.getFirstColor().getRGB(), style.getSecondColor().getRGB());
-            }
-            DisplayUtils.drawRoundedRect(x + 5, y + 13, width - 10 - 10, 23 / 2f, new Vector4f(7, 7, 7, 7), new Vector4i(style.getFirstColor().getRGB(), style.getFirstColor().getRGB(), style.getSecondColor().getRGB(), style.getSecondColor().getRGB()));
             offset++;
         }
+
         if (MathUtil.isHovered(mouseX, mouseY, x, y, width, height)) {
             if (hovered) {
                 GLFW.glfwSetCursor(Minecraft.getInstance().getMainWindow().getHandle(), Cursors.HAND);
@@ -99,7 +130,16 @@ public class PanelStyle extends Panel {
         }
         Scissor.unset();
         Scissor.pop();
-        max = offset * Expensive.getInstance().getStyleManager().getStyleList().size() * 2.2f;
+        max = offset * cardHeight + Math.max(0, offset - 1) * cardSpacing;
+
+        DisplayUtils.drawRoundedRect(x, y + height - footer, width, footer, new Vector4f(0, 0, 12, 12),
+                new Vector4i(ColorUtils.rgba(27, 27, 38, 0), ColorUtils.rgba(27, 27, 38, 0),
+                        ColorUtils.rgba(36, 36, 48, (int) (255 * 0.45)),
+                        ColorUtils.rgba(36, 36, 48, (int) (255 * 0.7))));
+
+        Fonts.montserrat.drawText(stack,
+                "Current: " + Expensive.getInstance().getStyleManager().getCurrentStyle().getStyleName(), x + 12,
+                y + height - footer / 2f - Fonts.montserrat.getHeight(6f) / 2f, ColorUtils.rgb(110, 115, 140), 6f, 0.05f);
     }
 
     @Override
@@ -109,12 +149,15 @@ public class PanelStyle extends Panel {
 
     @Override
     public void mouseClick(float mouseX, float mouseY, int button) {
-        float header = 55 / 2f;
+        float header = 44f;
+        float cardHeight = 34f;
+        float cardSpacing = 10f;
         int offset = 0;
         for (Style style : Expensive.getInstance().getStyleManager().getStyleList()) {
-            float x = this.x + 5;
-            float y = this.y + header + 5 + offset * (57 / 2f + 5) + getAnimatedScrool();
-            if (MathUtil.isHovered(mouseX, mouseY, x + 5, y + 13, width - 10 - 10, 23 / 2f)) {
+            float cardX = this.x + 8;
+            float cardY = this.y + header + 8 + offset * (cardHeight + cardSpacing) + getAnimatedScrool();
+            float cardWidth = width - 16;
+            if (MathUtil.isHovered(mouseX, mouseY, cardX, cardY, cardWidth, cardHeight)) {
                 Expensive.getInstance().getStyleManager().setCurrentStyle(style);
             }
             offset++;

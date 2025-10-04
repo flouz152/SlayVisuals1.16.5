@@ -1,6 +1,5 @@
 package im.expensive.ui.dropdown;
 
-import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,7 +31,7 @@ public class Panel implements IBuilder {
     private final Category category;
     protected float x;
     protected float y;
-    protected final float width = 135;
+    protected final float width = 165;
     protected final float height = 747 / 2f;
 
     private List<ModuleComponent> modules = new ArrayList<>();
@@ -56,46 +55,59 @@ public class Panel implements IBuilder {
     public void render(MatrixStack stack, float mouseX, float mouseY) {
 
         animatedScrool = MathUtil.fast(animatedScrool, scroll, 10);
-        float header = 55 / 2f;
-        float headerFont = 9;
+        float header = 44f;
+        float footer = 30f;
+        float headerFont = 8.5f;
 
-        DisplayUtils.drawRoundedRect(x, y, width, header, new Vector4f(7, 0, 7, 0),
-                ColorUtils.rgba(23, 23, 23, (int) (255 * 0.43)));
+        DisplayUtils.drawRoundedRect(x, y, width, height, new Vector4f(12, 12, 12, 12),
+                ColorUtils.rgba(11, 11, 15, (int) (255 * 0.75)));
 
-        DisplayUtils.drawRoundedRect(x, y, width, height, new Vector4f(7, 7, 7, 7),
-                ColorUtils.rgba(17, 17, 17, (int) (255 * 0.65)));
+        DisplayUtils.drawRoundedRect(x + 1, y + 1, width - 2, height - 2, new Vector4f(10, 10, 10, 10),
+                ColorUtils.rgba(6, 6, 9, (int) (255 * 0.8)));
 
-        DisplayUtils.drawRectHorizontalW(x, y, width, header,
-                ColorUtils.rgba(17, 17, 17, 64), ColorUtils.rgba(17, 17, 17, 0));
+        DisplayUtils.drawRoundedRect(x, y, width, header, new Vector4f(12, 12, 8, 8),
+                ColorUtils.rgba(24, 24, 32, (int) (255 * 0.92)));
 
-        DisplayUtils.drawRectVerticalW(x, y + header, width, 0.5f, ColorUtils.rgb(24, 24, 30),
-                ColorUtils.rgb(32, 34, 40));
+        DisplayUtils.drawRectVerticalW(x, y, width, header,
+                ColorUtils.rgba(86, 121, 255, 65), ColorUtils.rgba(171, 74, 255, 35));
 
-        Fonts.montserrat.drawCenteredText(stack, category.name(), x + width / 2f,
-                y + header / 2f - Fonts.montserrat.getHeight(headerFont) / 2f - 1, ColorUtils.rgb(161, 164, 177),
+        DisplayUtils.drawRoundedRect(x + 6, y + header - 1.5f, width - 12, 1.5f, new Vector4f(1, 1, 1, 1),
+                ColorUtils.rgba(255, 255, 255, 35));
+
+        Fonts.montserrat.drawText(stack, category.name(), x + 12,
+                y + header / 2f - Fonts.montserrat.getHeight(headerFont) / 2f, ColorUtils.rgb(194, 198, 214),
                 headerFont, 0.1f);
+
+        Fonts.montserrat.drawText(stack, modules.size() + " modules", x + 12,
+                y + header / 2f + Fonts.montserrat.getHeight(6.5f) / 2f + 2, ColorUtils.rgb(97, 103, 130), 6.5f, 0.1f);
 
         drawComponents(stack, mouseX, mouseY);
 
         drawOutline();
-        DisplayUtils.drawRoundedRect(x, y + height - header, width, header, new Vector4f(0, 7, 0, 7),
-                new Vector4i(Color.TRANSLUCENT, ColorUtils.rgba(23, 23, 23, (int) (255 * 0.33)), Color.TRANSLUCENT,
-                        ColorUtils.rgba(23, 23, 23, (int) (255 * 0.33))));
+
+        DisplayUtils.drawRoundedRect(x, y + height - footer, width, footer, new Vector4f(0, 0, 12, 12),
+                new Vector4i(ColorUtils.rgba(27, 27, 38, 0), ColorUtils.rgba(27, 27, 38, 0),
+                        ColorUtils.rgba(36, 36, 48, (int) (255 * 0.45)),
+                        ColorUtils.rgba(36, 36, 48, (int) (255 * 0.7))));
+
+        Fonts.montserrat.drawText(stack, "Hold shift to expand", x + 12,
+                y + height - footer / 2f - Fonts.montserrat.getHeight(6f) / 2f, ColorUtils.rgb(110, 115, 140), 6f,
+                0.05f);
 
     }
 
     protected void drawOutline() {
         Stencil.initStencilToWrite();
 
-        DisplayUtils.drawRoundedRect(x + 0.5f, y + 0.5f, width - 1, height - 1, new Vector4f(6.5F, 6.5F, 6.5F, 6.5F),
-                ColorUtils.rgba(23, 23, 23, (int) (255 * 0.33)));
+        DisplayUtils.drawRoundedRect(x + 0.5f, y + 0.5f, width - 1, height - 1, new Vector4f(11F, 11F, 11F, 11F),
+                ColorUtils.rgba(32, 32, 43, (int) (255 * 0.4)));
 
         Stencil.readStencilBuffer(0);
 
         DisplayUtils.drawRoundedRect(x, y, width, height,
-                new Vector4f(6.5f, 6.5f, 6.5f, 6.5f),
-                new Vector4i(ColorUtils.rgb(48, 53, 60), ColorUtils.rgb(0, 0, 0), ColorUtils.rgb(48, 53, 60),
-                        ColorUtils.rgb(0, 0, 0)));
+                new Vector4f(11f, 11f, 11f, 11f),
+                new Vector4i(ColorUtils.rgb(40, 44, 54), ColorUtils.rgb(12, 12, 18), ColorUtils.rgb(40, 44, 54),
+                        ColorUtils.rgb(12, 12, 18)));
 
         Stencil.uninitStencilBuffer();
     }
@@ -106,11 +118,13 @@ public class Panel implements IBuilder {
         float animationValue = (float) DropDown.getAnimation().getValue() * DropDown.scale;
 
         float halfAnimationValueRest = (1 - animationValue) / 2f;
-        float height = getHeight();
+        float header = 44f;
+        float footer = 30f;
+        float contentHeight = getHeight() - header - footer;
         float testX = getX() + (getWidth() * halfAnimationValueRest);
-        float testY = getY() + 55 / 2f + (height * halfAnimationValueRest);
+        float testY = getY() + header + (contentHeight * halfAnimationValueRest);
         float testW = getWidth() * animationValue;
-        float testH = height * animationValue;
+        float testH = contentHeight * animationValue;
 
         testX = testX * animationValue + ((Minecraft.getInstance().getMainWindow().getScaledWidth() - testW) *
                 halfAnimationValueRest);
@@ -118,20 +132,19 @@ public class Panel implements IBuilder {
         Scissor.push();
         Scissor.setFromComponentCoordinates(testX, testY, testW, testH);
         float offset = 0;
-        float header = 55 / 2f;
+        float availableHeight = contentHeight - 10;
 
-        if (max > height - header - 10) {
-            scroll = MathHelper.clamp(scroll, -max + height - header - 10, 0);
-            animatedScrool = MathHelper.clamp(animatedScrool, -max + height - header - 10, 0);
-        }
-        else {
+        if (max > availableHeight) {
+            scroll = MathHelper.clamp(scroll, -max + availableHeight, 0);
+            animatedScrool = MathHelper.clamp(animatedScrool, -max + availableHeight, 0);
+        } else {
             scroll = 0;
             animatedScrool = 0;
         }
         for (ModuleComponent component : modules) {
-            component.setX(getX() + 5);
-            component.setY(getY() + header + offset + 6 + animatedScrool);
-            component.setWidth(getWidth() - 10);
+            component.setX(getX() + 8);
+            component.setY(getY() + header + 8 + offset + animatedScrool);
+            component.setWidth(getWidth() - 16);
             component.setHeight(20);
             component.animation.update();
             if (component.animation.getValue() > 0) {
