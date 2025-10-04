@@ -92,6 +92,8 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * Давай спастим wintware, короче
  */
 
+// Примечание: блок выше — оригинальный комментарий автора, поэтому он остаётся серым в IDE.
+
 @Getter
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Expensive {
