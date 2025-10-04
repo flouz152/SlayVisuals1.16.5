@@ -32,7 +32,9 @@ public class ClientFeaturesTab implements SlayTab {
 
     @Override
     public void render(MatrixStack stack, float x, float y, float width, float height, int mouseX, int mouseY, float partialTicks) {
-        float offsetY = y;
+        Fonts.montserrat.drawText(stack, "Client Enhancements", x, y, -1, 8, 0.05f);
+        Fonts.montserrat.drawText(stack, "Preferences persist in slayclient/settings.properties.", x, y + 14, ColorUtils.rgba(170, 170, 180, 220), 6, 0.05f);
+        float offsetY = y + 30;
         for (ToggleButton button : buttons) {
             float entryHeight = 62;
             DisplayUtils.drawRoundedRect(x, offsetY, width, entryHeight, 6, ColorUtils.rgba(24, 24, 32, 140));

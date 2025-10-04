@@ -23,7 +23,7 @@ public final class SlayClient {
     private final File clientDirectory;
     private final File addonDirectory;
     private final AddonManager addonManager;
-    private final SlayClientSettings settings = new SlayClientSettings();
+    private final SlayClientSettings settings;
     private SlayClientScreen cachedScreen;
 
     private SlayClient() {
@@ -36,10 +36,12 @@ public final class SlayClient {
             addonDirectory.mkdirs();
         }
         this.addonManager = new AddonManager(addonDirectory);
+        this.settings = new SlayClientSettings(clientDirectory);
     }
 
     public void initialize() {
         addonManager.discoverAddons();
+        settings.ensureDefaultsWritten();
     }
 
     public AddonManager getAddonManager() {
