@@ -27,15 +27,17 @@ dependencies {
 sourceSets {
     main {
         java {
-            setSrcDirs([
-                    "../src/im/slayclient",
-                    "../src/im/expensive/utils"
-            ])
+            setSrcDirs(["src/main/java"])
         }
         resources {
-            setSrcDirs(["../src"])
+            setSrcDirs([
+                    "src/main/resources",
+                    "../src"
+            ])
             include("assets/**")
             include("data/**")
+            include("pack.mcmeta")
+            include("pack.png")
         }
     }
 }

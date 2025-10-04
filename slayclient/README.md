@@ -1,10 +1,10 @@
 # SlayClient standalone build
 
-Этот каталог содержит упрощённый Gradle-проект, который позволяет собрать
-ядро SlayClient и все задействованные утилиты из исходного клиента Expensive.
-Сборка использует Java 19 (через toolchain) и подключает все jar-файлы из
-`../libraries` как compileOnly-зависимости, чтобы код корректно компилировался
-вне среды MCP.
+Этот каталог содержит полноценный Gradle-проект, который позволяет собрать
+ядро SlayClient вместе с **полным** набором утилит Expensive (включая dropdown
+GUI, рендер-помощники, курсоры и шрифты). Сборка использует Java 19 (через
+toolchain) и подключает все jar-файлы из `../libraries` как compileOnly-зависимости,
+чтобы код корректно компилировался вне среды MCP.
 
 ## Быстрый старт
 
@@ -14,9 +14,10 @@ gradle dist
 ```
 
 Итоговый архив `build/libs/SlayClient-1.0.0-SNAPSHOT-slayclient.jar` содержит
-классы SlayClient, GUI и все утилиты, необходимые для интеграции в кастомную
-версию Minecraft 1.16.5. Добавляйте свои аддоны (скомпилированные под Java 19)
-через API `im.slayclient.addon.SlayAddon`.
+классы SlayClient, GUI, полный пакет утилит Expensive и ресурсы (шрифты,
+шейдеры), необходимые для интеграции в кастомную версию Minecraft 1.16.5.
+Добавляйте свои аддоны (скомпилированные под Java 19) через API
+`im.slayclient.addon.SlayAddon`.
 
 ## Создание кастомной версии для лаунчера
 1. Соберите jar командой `gradle dist` (см. выше).
@@ -43,11 +44,13 @@ gradle dist
    установлен и выбран для запуска.
 
 ## Структура исходников
-- `../src/im/slayclient` — код клиента, GUI и API для аддонов (включая сохранение
-  пользовательских настроек в `slayclient/settings.properties`).
-- `../src/im/expensive/utils` — полный набор утилит Expensive (рендер, математика,
-  курсоры, шрифты и т.д.), которые переиспользуются в интерфейсе SlayClient.
-- `../src/assets` и `../src/data` — ресурсы (шрифты, шейдеры), подключенные как ресурсы Gradle.
+- `src/main/java/im/slayclient` — код клиента, GUI, API для аддонов и новые фичи
+  (табы Addons/Performance/Settings/Client/Innovation, сохранение настроек).
+- `src/main/java/im/expensive` — полный набор исходников Expensive (utils, dropdown,
+  функции, события), скопированный для автономной сборки SlayClient.
+- `src/main/resources` — ресурсы SlayClient. Дополнительно Gradle подмешивает
+  оригинальные `../src/assets`, `../src/data`, `../src/pack.mcmeta` и `../src/pack.png`,
+  чтобы шрифты и шейдеры совпадали с основным клиентом.
 
 ## Примечание
 Gradle-проект использует существующие исходники, поэтому на GitHub остаётся
