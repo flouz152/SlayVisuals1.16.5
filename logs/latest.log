@@ -1,0 +1,1533 @@
+[09:02:45] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.eventbus.api.Event$Result
+[09:02:45] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.hasTileEntity
+[09:02:45] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeEntity
+[09:02:45] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.CrashReportExtender
+[09:02:45] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tags.ItemTags.createOptional
+[09:02:48] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ForgeHooksClient
+[09:02:48] [main/ERROR]: Can't find the resource index file: assets\indexes\1.16.json
+[09:02:48] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:02:49] [main/INFO]: Setting user: fgst_231
+[09:02:49] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.settings.KeyConflictContext
+[09:02:49] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.settings.KeyModifier
+[09:02:49] [main/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[09:02:49] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.fml.loading.progress.EarlyProgressVisualization.handOffWindow
+[09:02:50] [main/INFO]: [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[09:02:50] [main/INFO]: [OptiFine] (Reflector) Class not present: optifine.OptiFineResourceLocator
+[09:02:50] [main/ERROR]: Couldn't set icon
+java.io.FileNotFoundException: icons/icon_16x16.png
+	at net.minecraft.resources.VanillaPack.getResourceStream(VanillaPack.java:117) ~[client/:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:356) [client/:?]
+	at net.minecraft.client.main.Main.main(Main.java:156) [client/:?]
+	at Start.main(Start.java:11) [client/:?]
+[09:02:50] [main/INFO]: [OptiFine] 
+[09:02:50] [main/INFO]: [OptiFine] OptiFine_1.16.5_HD_U_G8
+[09:02:50] [main/INFO]: [OptiFine] Build: null
+[09:02:50] [main/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[09:02:50] [main/INFO]: [OptiFine] Java: 19.0.2, Eclipse Adoptium
+[09:02:50] [main/INFO]: [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+[09:02:50] [main/INFO]: [OptiFine] LWJGL: 3.3.0 Win32 WGL EGL OSMesa VisualC DLL
+[09:02:50] [main/INFO]: [OptiFine] OpenGL: AMD Radeon(TM) RX 6400, version 4.6.0 Compatibility Profile Context 24.12.1.241127, ATI Technologies Inc.
+[09:02:51] [main/INFO]: [OptiFine] OpenGL Version: 4.6.0
+[09:02:51] [main/INFO]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[09:02:51] [main/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[09:02:51] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[09:02:51] [main/INFO]: [Shaders] OpenGL Version: 4.6.0 Compatibility Profile Context 24.12.1.241127
+[09:02:51] [main/INFO]: [Shaders] Vendor:  ATI Technologies Inc.
+[09:02:51] [main/INFO]: [Shaders] Renderer: AMD Radeon(TM) RX 6400
+[09:02:51] [main/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[09:02:51] [main/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[09:02:51] [main/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[09:02:51] [main/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[09:02:51] [main/INFO]: [Shaders] Load shaders configuration.
+[09:02:51] [main/INFO]: [Shaders] Save shaders configuration.
+[09:02:51] [main/INFO]: [Shaders] No shaderpack loaded.
+[09:02:51] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[09:02:51] [main/WARN]: [OptiFine] java.lang.ClassNotFoundException: sun.misc.SharedSecrets
+[09:02:51] [main/WARN]: [OptiFine] java.lang.ClassNotFoundException: jdk.internal.misc.SharedSecrets
+[09:02:51] [main/WARN]: [OptiFine] java.lang.ClassNotFoundException: sun.misc.VM
+[09:02:51] [main/WARN]: [OptiFine] java.lang.reflect.InaccessibleObjectException: Unable to make public static long jdk.internal.misc.VM.maxDirectMemory() accessible: module java.base does not "exports jdk.internal.misc" to unnamed module @192d3247
+[09:02:51] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ItemModelMesherForge
+[09:02:51] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer
+[09:02:51] [VersionCheck/INFO]: [OptiFine] Version found: G7
+[09:02:51] [main/INFO]: Narrator library for x64 successfully loaded
+[09:02:52] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[09:02:52] [main/INFO]: Loaded Platform ViaVersion
+[09:02:52] [main/INFO]: Loading translations...
+[09:02:52] [main/INFO]: Registering protocols...
+[09:02:52] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[09:02:52] [main/INFO]: Loaded Platform ViaBackwards
+[09:02:52] [main/INFO]: ViaVersion detected lowest supported version by the proxy: 1.4.6/7 (51)
+[09:02:52] [main/INFO]: Highest supported version by the proxy: 1.20/1.20.1 (763)
+[09:02:52] [Via Async Scheduler 0/INFO]: Finished mapping loading, shutting down loader executor!
+[09:02:53] [main/INFO]: Reloading ResourceManager: Default
+[09:02:53] [main/INFO]: [OptiFine] *** Reloading textures ***
+[09:02:53] [main/INFO]: [OptiFine] Resource packs: Default
+[09:02:53] [Worker-Main-2/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ModelLoaderRegistry
+[09:02:53] [Worker-Main-5/INFO]: [OptiFine] Multitexture: false
+[09:02:53] [Worker-Main-3/INFO]: [OptiFine] Multitexture: false
+[09:02:53] [Worker-Main-1/INFO]: [OptiFine] Multitexture: false
+[09:02:53] [Via Async Task 1/WARN]: There is a newer plugin version available: 5.4.2, you're on: 4.7.0
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.RenderTypeLookup.canRenderInLayer
+[09:02:53] [main/INFO]: [OptiFine] *** Reflector Forge ***
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.BrandingControl
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.capabilities.ICapabilityProvider
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.capabilities.CapabilityProvider
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.ClientModLoader
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkDataEvent$Save
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkEvent$Load
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkEvent$Unload
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.ClientHooks
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Pre
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Post
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.entity.EntityLeaveWorldEvent
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$CameraSetup
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$FogColors
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$RenderFogEvent
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.entity.EntityJoinWorldEvent
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.eventbus.api.Event.isCanceled
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.eventbus.api.Event.getResult
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.eventbus.api.IEventBus
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeBlock
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.BlockModelShapes.getTexture
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.addDestroyEffects
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.addHitEffects
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.getLightValue
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.getSoundType
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.getStateAtViewpoint
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.isAir
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.shouldDisplayFluidOverlay
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeFluid
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fluids.FluidAttributes
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.EntityType.getTags
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.ForgeEventFactory
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.fluid.Fluid.getTags
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeHooks
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeConfig
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeConfig$Client
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeConfigSpec
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeConfigSpec$ConfigValue
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.chunk.IChunk.getWorldForge
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeItem
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeItemStack
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.ForgeI18n
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.settings.KeyBinding.setKeyConflictContext
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.settings.KeyBinding.setKeyModifierAndCode
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.settings.KeyBinding.getKeyModifier
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeEffectInstance
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.registries.ForgeRegistryEntry
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.RenderTypeLookup.canRenderInLayer
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Constructor not present: net.minecraft.world.server.Ticket, params: class net.minecraft.world.server.TicketType, int, class java.lang.Object, boolean
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.server.Ticket.isForceTicks
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeTileEntity
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.world.DimensionRenderInfo.getCloudRenderHandler
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.world.DimensionRenderInfo.getSkyRenderHandler
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.world.DimensionRenderInfo.getWeatherParticleRenderHandler
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.world.DimensionRenderInfo.getWeatherRenderHandler
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.IRenderHandler
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.LightUtil
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.MinecraftForge
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.MinecraftForgeClient
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.gui.screen.ModListScreen
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.gui.NotificationModUpdateScreen
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.entity.PartEntity
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.entity.PlaySoundAtEntityEvent
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderBlockOverlayEvent$OverlayType
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.registry.RenderingRegistry
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderGameOverlayEvent$BossInfo
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderItemInFrameEvent
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Pre
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Post
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderNameplateEvent
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.ScreenshotEvent
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.server.ServerLifecycleHooks
+[09:02:53] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.WorldEvent$Load
+[09:02:53] [main/INFO]: [OptiFine] *** Reflector Vanilla ***
+[09:02:57] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[09:02:57] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_pane_white.properties
+[09:02:57] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_white.properties
+[09:02:57] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_orange.properties
+[09:02:57] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_pane_orange.properties
+[09:02:57] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_magenta.properties
+[09:02:57] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_pane_magenta.properties
+[09:02:57] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_light_blue.properties
+[09:02:57] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_pane_light_blue.properties
+[09:02:57] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_pane_yellow.properties
+[09:02:57] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_yellow.properties
+[09:02:57] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_lime.properties
+[09:02:57] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_pane_lime.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pane_pink.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pink.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_gray.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_pane_gray.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_light_gray.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_pane_light_gray.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_cyan.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_pane_cyan.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_pane_purple.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_purple.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_blue.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_pane_blue.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_brown.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_pane_brown.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_green.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_pane_green.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_pane_red.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_red.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_black.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_pane_black.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass_pane.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/30_bookshelf/bookshelf.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/40_sandstone/sandstone.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/41_red_sandstone/red_sandstone.properties
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] Multipass connected textures: false
+[09:02:58] [Worker-Main-2/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[09:03:01] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 4
+[09:03:01] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[09:03:01] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[09:03:01] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[09:03:01] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[09:03:02] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.cave
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.basalt_deltas.additions
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.basalt_deltas.loop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.basalt_deltas.mood
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.crimson_forest.additions
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.crimson_forest.loop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.crimson_forest.mood
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.nether_wastes.additions
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.nether_wastes.loop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.nether_wastes.mood
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.soul_sand_valley.additions
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.soul_sand_valley.loop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.soul_sand_valley.mood
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.warped_forest.additions
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.warped_forest.loop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.warped_forest.mood
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.underwater.enter
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.underwater.exit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.underwater.loop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.underwater.loop.additions
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.underwater.loop.additions.rare
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ambient.underwater.loop.additions.ultra_rare
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.ancient_debris.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.ancient_debris.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.ancient_debris.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.ancient_debris.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.ancient_debris.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.anvil.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.anvil.destroy
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.anvil.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.anvil.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.anvil.land
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.anvil.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.anvil.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.anvil.use
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.armor.equip_chain
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.armor.equip_diamond
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.armor.equip_elytra
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.armor.equip_generic
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.armor.equip_gold
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.armor.equip_iron
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.armor.equip_leather
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.armor.equip_netherite
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.armor.equip_turtle
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.armor_stand.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.armor_stand.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.armor_stand.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.armor_stand.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.arrow.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.arrow.hit_player
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.arrow.shoot
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.axe.strip
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bamboo.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bamboo.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bamboo.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bamboo.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bamboo.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bamboo_sapling.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bamboo_sapling.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bamboo_sapling.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.barrel.close
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.barrel.open
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.basalt.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.basalt.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.basalt.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.basalt.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.basalt.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.bat.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.bat.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.bat.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.bat.loop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.bat.takeoff
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.beacon.activate
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.beacon.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.beacon.deactivate
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.beacon.power_select
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.bee.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.bee.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.bee.loop_aggressive
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.bee.loop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.bee.sting
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.bee.pollinate
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.beehive.drip
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.beehive.enter
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.beehive.exit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.beehive.shear
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.beehive.work
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bell.use
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bell.resonate
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.blaze.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.blaze.burn
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.blaze.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.blaze.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.blaze.shoot
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.boat.paddle_land
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.boat.paddle_water
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bone_block.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bone_block.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bone_block.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bone_block.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bone_block.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.book.page_turn
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.book.put
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.blastfurnace.fire_crackle
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.bottle.empty
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.bottle.fill
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.bottle.fill_dragonbreath
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.brewing_stand.brew
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bubble_column.bubble_pop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bubble_column.upwards_ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bubble_column.upwards_inside
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bubble_column.whirlpool_ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.bubble_column.whirlpool_inside
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.bucket.empty
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.bucket.empty_fish
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.bucket.empty_lava
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.bucket.fill
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.bucket.fill_fish
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.bucket.fill_lava
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.campfire.crackle
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cat.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cat.stray_ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cat.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cat.eat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cat.hiss
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cat.beg_for_food
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cat.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cat.purr
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cat.purreow
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.chain.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.chain.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.chain.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.chain.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.chain.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.chest.close
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.chest.locked
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.chest.open
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.chicken.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.chicken.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.chicken.egg
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.chicken.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.chicken.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.chorus_flower.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.chorus_flower.grow
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.chorus_fruit.teleport
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cod.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cod.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cod.flop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cod.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.comparator.click
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.composter.empty
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.composter.fill
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.composter.fill_success
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.composter.ready
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.conduit.activate
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.conduit.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.conduit.ambient.short
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.conduit.attack.target
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.conduit.deactivate
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.coral_block.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.coral_block.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.coral_block.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.coral_block.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.coral_block.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cow.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cow.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cow.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cow.milk
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.cow.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.creeper.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.creeper.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.creeper.primed
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.crop.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.crop.plant
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.crossbow.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.crossbow.loading_end
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.crossbow.loading_middle
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.crossbow.loading_start
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.crossbow.quick_charge_1
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.crossbow.quick_charge_2
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.crossbow.quick_charge_3
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.crossbow.shoot
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.dispenser.dispense
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.dispenser.fail
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.dispenser.launch
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.dolphin.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.dolphin.ambient_water
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.dolphin.attack
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.dolphin.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.dolphin.eat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.dolphin.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.dolphin.jump
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.dolphin.play
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.dolphin.splash
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.dolphin.swim
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.donkey.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.donkey.angry
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.donkey.chest
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.donkey.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.donkey.eat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.donkey.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.drowned.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.drowned.ambient_water
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.drowned.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.drowned.death_water
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.drowned.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.drowned.hurt_water
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.drowned.shoot
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.drowned.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.drowned.swim
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.egg.throw
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.elder_guardian.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.elder_guardian.ambient_land
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.elder_guardian.curse
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.elder_guardian.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.elder_guardian.death_land
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.elder_guardian.flop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.elder_guardian.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.elder_guardian.hurt_land
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.elytra.flying
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.enchantment_table.use
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.ender_chest.close
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.ender_chest.open
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ender_dragon.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ender_dragon.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.dragon_fireball.explode
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ender_dragon.flap
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ender_dragon.growl
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ender_dragon.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ender_dragon.shoot
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ender_eye.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ender_eye.launch
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.enderman.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.enderman.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.enderman.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.enderman.scream
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.enderman.stare
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.enderman.teleport
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.endermite.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.endermite.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.endermite.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.endermite.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ender_pearl.throw
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.end_gateway.spawn
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.end_portal_frame.fill
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.end_portal.spawn
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.evoker.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.evoker.cast_spell
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.evoker.celebrate
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.evoker.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.evoker_fangs.attack
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.evoker.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.evoker.prepare_attack
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.evoker.prepare_summon
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.evoker.prepare_wololo
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.experience_bottle.throw
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.experience_orb.pickup
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.fence_gate.close
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.fence_gate.open
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.firecharge.use
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.firework_rocket.blast
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.firework_rocket.blast_far
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.firework_rocket.large_blast
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.firework_rocket.large_blast_far
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.firework_rocket.launch
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.firework_rocket.shoot
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.firework_rocket.twinkle
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.firework_rocket.twinkle_far
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.fire.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.fire.extinguish
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fish.swim
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fishing_bobber.retrieve
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fishing_bobber.splash
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fishing_bobber.throw
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.flintandsteel.use
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fox.aggro
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fox.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fox.bite
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fox.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fox.eat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fox.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fox.screech
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fox.sleep
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fox.sniff
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fox.spit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.fox.teleport
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.roots.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.roots.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.roots.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.roots.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.roots.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.furnace.fire_crackle
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.generic.big_fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.generic.burn
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.generic.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.generic.drink
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.generic.eat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.generic.explode
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.generic.extinguish_fire
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.generic.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.generic.small_fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.generic.splash
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.generic.swim
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ghast.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ghast.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ghast.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ghast.scream
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ghast.shoot
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ghast.warn
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.gilded_blackstone.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.gilded_blackstone.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.gilded_blackstone.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.gilded_blackstone.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.gilded_blackstone.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.glass.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.glass.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.glass.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.glass.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.glass.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.grass.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.grass.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.grass.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.grass.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.grass.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.gravel.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.gravel.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.gravel.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.gravel.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.gravel.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.grindstone.use
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.guardian.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.guardian.ambient_land
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.guardian.attack
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.guardian.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.guardian.death_land
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.guardian.flop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.guardian.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.guardian.hurt_land
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.hoe.till
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hoglin.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hoglin.angry
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hoglin.attack
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hoglin.converted_to_zombified
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hoglin.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hoglin.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hoglin.retreat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hoglin.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.honey_block.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.honey_block.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.honey_block.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.honey_block.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.honey_block.slide
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.honey_block.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.honey_bottle.drink
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.horse.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.horse.angry
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.horse.armor
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.horse.breathe
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.horse.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.horse.eat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.horse.gallop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.horse.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.horse.jump
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.horse.land
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.horse.saddle
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.horse.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.horse.step_wood
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hostile.big_fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hostile.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hostile.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hostile.small_fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hostile.splash
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.hostile.swim
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.husk.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.husk.converted_to_zombie
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.husk.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.husk.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.husk.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.illusioner.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.illusioner.cast_spell
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.illusioner.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.illusioner.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.illusioner.mirror_move
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.illusioner.prepare_blindness
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.illusioner.prepare_mirror
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.iron_door.close
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.iron_door.open
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.iron_golem.attack
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.iron_golem.damage
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.iron_golem.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.iron_golem.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.iron_golem.repair
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.iron_golem.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.iron_trapdoor.close
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.iron_trapdoor.open
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.item_frame.add_item
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.item_frame.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.item_frame.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.item_frame.remove_item
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.item_frame.rotate_item
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.item.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.item.pickup
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.ladder.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.ladder.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.ladder.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.ladder.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.ladder.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lantern.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lantern.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lantern.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lantern.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lantern.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lava.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lava.extinguish
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lava.pop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.leash_knot.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.leash_knot.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lever.click
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.lightning_bolt.impact
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.lightning_bolt.thunder
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.lingering_potion.throw
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.llama.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.llama.angry
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.llama.chest
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.llama.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.llama.eat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.llama.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.llama.spit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.llama.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.llama.swag
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.magma_cube.death_small
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lodestone.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lodestone.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lodestone.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lodestone.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lodestone.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.lodestone_compass.lock
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.magma_cube.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.magma_cube.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.magma_cube.hurt_small
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.magma_cube.jump
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.magma_cube.squish
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.magma_cube.squish_small
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.metal.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.metal.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.metal.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.metal.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.metal_pressure_plate.click_off
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.metal_pressure_plate.click_on
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.metal.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.minecart.inside
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.minecart.riding
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.mooshroom.convert
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.mooshroom.eat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.mooshroom.milk
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.mooshroom.suspicious_milk
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.mooshroom.shear
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.mule.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.mule.angry
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.mule.chest
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.mule.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.mule.eat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.mule.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music.creative
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music.credits
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music_disc.11
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music_disc.13
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music_disc.blocks
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music_disc.cat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music_disc.chirp
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music_disc.far
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music_disc.mall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music_disc.mellohi
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music_disc.pigstep
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music_disc.stal
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music_disc.strad
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music_disc.wait
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music_disc.ward
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music.dragon
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music.end
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music.game
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music.menu
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music.nether.basalt_deltas
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music.nether.nether_wastes
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music.nether.soul_sand_valley
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music.nether.crimson_forest
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music.nether.warped_forest
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:music.under_water
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_bricks.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_bricks.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_bricks.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_bricks.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_bricks.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_wart.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.nether_wart.plant
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stem.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stem.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stem.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stem.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stem.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nylium.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nylium.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nylium.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nylium.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nylium.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_sprouts.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_sprouts.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_sprouts.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_sprouts.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_sprouts.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.fungus.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.fungus.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.fungus.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.fungus.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.fungus.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.weeping_vines.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.weeping_vines.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.weeping_vines.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.weeping_vines.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.weeping_vines.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wart_block.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wart_block.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wart_block.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wart_block.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wart_block.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.netherite_block.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.netherite_block.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.netherite_block.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.netherite_block.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.netherite_block.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.netherrack.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.netherrack.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.netherrack.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.netherrack.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.netherrack.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.basedrum
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.bass
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.bell
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.chime
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.flute
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.guitar
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.harp
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.hat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.pling
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.snare
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.xylophone
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.iron_xylophone
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.cow_bell
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.didgeridoo
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.bit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.note_block.banjo
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ocelot.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ocelot.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ocelot.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.painting.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.painting.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.panda.pre_sneeze
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.panda.sneeze
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.panda.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.panda.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.panda.eat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.panda.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.panda.cant_breed
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.panda.aggressive_ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.panda.worried_ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.panda.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.panda.bite
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.eat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.fly
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.blaze
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.creeper
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.drowned
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.elder_guardian
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.ender_dragon
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.endermite
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.evoker
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.ghast
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.guardian
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.hoglin
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.husk
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.illusioner
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.magma_cube
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.phantom
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.piglin
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.piglin_brute
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.pillager
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.ravager
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.shulker
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.silverfish
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.skeleton
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.slime
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.spider
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.stray
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.vex
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.vindicator
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.witch
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.wither
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.wither_skeleton
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.zoglin
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.zombie
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.imitate.zombie_villager
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.parrot.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.phantom.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.phantom.bite
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.phantom.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.phantom.flap
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.phantom.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.phantom.swoop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.pig.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.pig.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.pig.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.pig.saddle
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.pig.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin.admiring_item
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin.angry
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin.celebrate
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin.jealous
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin.retreat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin.converted_to_zombified
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin_brute.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin_brute.angry
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin_brute.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin_brute.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin_brute.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.piglin_brute.converted_to_zombified
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.pillager.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.pillager.celebrate
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.pillager.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.pillager.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.piston.contract
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.piston.extend
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.attack.crit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.attack.knockback
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.attack.nodamage
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.attack.strong
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.attack.sweep
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.attack.weak
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.big_fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.breath
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.burp
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.hurt_drown
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.hurt_on_fire
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.hurt_sweet_berry_bush
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.levelup
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.small_fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.splash
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.splash.high_speed
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.player.swim
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.polar_bear.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.polar_bear.ambient_baby
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.polar_bear.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.polar_bear.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.polar_bear.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.polar_bear.warning
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.portal.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.portal.travel
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.portal.trigger
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.puffer_fish.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.puffer_fish.blow_out
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.puffer_fish.blow_up
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.puffer_fish.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.puffer_fish.flop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.puffer_fish.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.puffer_fish.sting
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.pumpkin.carve
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.rabbit.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.rabbit.attack
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.rabbit.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.rabbit.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.rabbit.jump
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:event.raid.horn
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ravager.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ravager.attack
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ravager.celebrate
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ravager.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ravager.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ravager.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ravager.stunned
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.ravager.roar
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_gold_ore.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_gold_ore.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_gold_ore.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_gold_ore.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_gold_ore.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_ore.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_ore.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_ore.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_ore.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.nether_ore.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.redstone_torch.burnout
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.respawn_anchor.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.respawn_anchor.charge
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.respawn_anchor.deplete
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.respawn_anchor.set_spawn
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.salmon.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.salmon.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.salmon.flop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.salmon.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.sand.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.sand.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.sand.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.sand.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.sand.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.scaffolding.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.scaffolding.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.scaffolding.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.scaffolding.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.scaffolding.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.sheep.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.sheep.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.sheep.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.sheep.shear
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.sheep.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.shield.block
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.shield.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.shroomlight.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.shroomlight.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.shroomlight.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.shroomlight.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.shroomlight.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.shovel.flatten
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.shulker.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.shulker_box.close
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.shulker_box.open
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.shulker_bullet.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.shulker_bullet.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.shulker.close
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.shulker.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.shulker.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.shulker.hurt_closed
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.shulker.open
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.shulker.shoot
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.shulker.teleport
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.silverfish.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.silverfish.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.silverfish.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.silverfish.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.skeleton.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.skeleton.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.swim
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.ambient_water
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.gallop_water
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.jump_water
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.step_water
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.skeleton.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.skeleton.shoot
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.skeleton.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.slime.attack
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.slime.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.slime.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.slime.jump
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.slime.squish
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.slime_block.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.slime_block.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.slime_block.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.slime_block.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.slime_block.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.soul_sand.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.soul_sand.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.soul_sand.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.soul_sand.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.soul_sand.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.soul_soil.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.soul_soil.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.soul_soil.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.soul_soil.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.soul_soil.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:particle.soul_escape
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.strider.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.strider.happy
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.strider.retreat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.strider.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.strider.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.strider.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.strider.step_lava
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.strider.eat
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.strider.saddle
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.slime.death_small
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.slime.hurt_small
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.slime.jump_small
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.slime.squish_small
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.smithing_table.use
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.smoker.smoke
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.snowball.throw
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.snow.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.snow.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.snow_golem.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.snow_golem.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.snow_golem.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.snow_golem.shoot
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.snow_golem.shear
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.snow.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.snow.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.snow.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.spider.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.spider.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.spider.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.spider.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.splash_potion.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.splash_potion.throw
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.squid.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.squid.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.squid.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.squid.squirt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stone.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stone_button.click_off
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stone_button.click_on
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stone.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stone.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stone.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stone_pressure_plate.click_off
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stone_pressure_plate.click_on
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.stone.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.stray.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.stray.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.stray.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.stray.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.sweet_berry_bush.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.sweet_berry_bush.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.sweet_berries.pick_from_bush
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:enchant.thorns.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.tnt.primed
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.totem.use
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.trident.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.trident.hit_ground
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.trident.return
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.trident.riptide_1
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.trident.riptide_2
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.trident.riptide_3
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.trident.throw
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:item.trident.thunder
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.tripwire.attach
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.tripwire.click_off
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.tripwire.click_on
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.tripwire.detach
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.tropical_fish.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.tropical_fish.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.tropical_fish.flop
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.tropical_fish.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.turtle.ambient_land
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.turtle.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.turtle.death_baby
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.turtle.egg_break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.turtle.egg_crack
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.turtle.egg_hatch
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.turtle.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.turtle.hurt_baby
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.turtle.lay_egg
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.turtle.shamble
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.turtle.shamble_baby
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.turtle.swim
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ui.button.click
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ui.loom.select_pattern
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ui.loom.take_result
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ui.cartography_table.take_result
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ui.stonecutter.take_result
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ui.stonecutter.select_recipe
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ui.toast.challenge_complete
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ui.toast.in
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:ui.toast.out
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.vex.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.vex.charge
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.vex.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.vex.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.celebrate
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.no
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.trade
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.yes
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.work_armorer
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.work_butcher
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.work_cartographer
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.work_cleric
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.work_farmer
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.work_fisherman
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.work_fletcher
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.work_leatherworker
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.work_librarian
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.work_mason
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.work_shepherd
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.work_toolsmith
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.villager.work_weaponsmith
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.vindicator.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.vindicator.celebrate
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.vindicator.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.vindicator.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.vine.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.lily_pad.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wandering_trader.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wandering_trader.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wandering_trader.disappeared
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wandering_trader.drink_milk
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wandering_trader.drink_potion
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wandering_trader.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wandering_trader.no
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wandering_trader.reappeared
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wandering_trader.trade
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wandering_trader.yes
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.water.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:weather.rain
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:weather.rain.above
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wet_grass.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wet_grass.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wet_grass.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wet_grass.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wet_grass.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.witch.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.witch.celebrate
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.witch.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.witch.drink
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.witch.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.witch.throw
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wither.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wither.break_block
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wither.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wither.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wither.shoot
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wither_skeleton.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wither_skeleton.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wither_skeleton.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wither_skeleton.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wither.spawn
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wolf.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wolf.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wolf.growl
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wolf.howl
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wolf.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wolf.pant
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wolf.shake
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wolf.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.wolf.whine
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wooden_door.close
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wooden_door.open
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wooden_trapdoor.close
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wooden_trapdoor.open
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wood.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wooden_button.click_off
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wooden_button.click_on
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wood.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wood.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wood.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wooden_pressure_plate.click_off
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wooden_pressure_plate.click_on
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wood.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wool.break
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wool.fall
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wool.hit
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wool.place
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:block.wool.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zoglin.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zoglin.angry
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zoglin.attack
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zoglin.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zoglin.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zoglin.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie.attack_wooden_door
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie.attack_iron_door
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie.break_wooden_door
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie.converted_to_drowned
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie.destroy_egg
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie_horse.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie_horse.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie_horse.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie.infect
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombified_piglin.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombified_piglin.angry
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombified_piglin.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombified_piglin.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie.step
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie_villager.ambient
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie_villager.converted
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie_villager.cure
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie_villager.death
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie_villager.hurt
+[09:03:02] [main/WARN]: Missing sound for event: minecraft:entity.zombie_villager.step
+[09:03:02] [main/INFO]: OpenAL initialized.
+[09:03:02] [main/INFO]: Sound engine started
+[09:03:02] [main/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[09:03:02] [main/INFO]: [OptiFine] Animated sprites: 43
+[09:03:02] [main/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[09:03:02] [main/INFO]: [OptiFine] Animated sprites: 0
+[09:03:02] [main/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[09:03:02] [main/INFO]: [OptiFine] Animated sprites: 0
+[09:03:02] [main/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[09:03:02] [main/INFO]: [OptiFine] Animated sprites: 0
+[09:03:02] [main/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[09:03:02] [main/INFO]: [OptiFine] Animated sprites: 0
+[09:03:02] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[09:03:02] [main/INFO]: [OptiFine] Animated sprites: 0
+[09:03:02] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[09:03:02] [main/INFO]: [OptiFine] Animated sprites: 0
+[09:03:03] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[09:03:03] [main/INFO]: [OptiFine] Animated sprites: 0
+[09:03:03] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[09:03:03] [main/INFO]: [OptiFine] Animated sprites: 0
+[09:03:03] [main/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[09:03:03] [main/INFO]: [OptiFine] Animated sprites: 0
+[09:03:03] [main/INFO]: [OptiFine] *** Reloading custom textures ***
+[09:03:05] [main/INFO]: [OptiFine] Disable Forge light pipeline
+[09:03:10] [main/INFO]: Connecting to mc.infinityhvh.com, 25565
+[09:03:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:03:12] [main/INFO]: [CHAT] NullCordX » Checking in progress, please wait...
+[09:03:12] [main/INFO]: [CHAT] NullCordX » Checking in progress, please wait...
+[09:03:13] [main/INFO]: [CHAT] NullCordX » Rotate the frame to the correct position if need and then enter the code from the image in the chat.
+[09:03:15] [main/INFO]: [CHAT] NullCordX » Rotate the frame to the correct position if need and then enter the code from the image in the chat.
+[09:03:18] [main/INFO]: [CHAT] NullCordX » Rotate the frame to the correct position if need and then enter the code from the image in the chat.
+[09:03:22] [main/INFO]: Connecting to mc.infinityhvh.com, 25565
+[09:03:23] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:03:23] [main/WARN]: Unknown custom packed identifier: minecraft:register
+[09:03:23] [main/WARN]: Unknown custom packed identifier: minecraft:register
+[09:03:24] [main/INFO]: Loaded 0 advancements
+[09:03:24] [main/INFO]: [CHAT] Авторизуйтесь, используя /login [пароль].
+[09:03:27] [main/INFO]: [CHAT] Неправильный пароль.
+[09:03:28] [main/INFO]: [CHAT] Авторизуйтесь, используя /login [пароль].
+[09:03:32] [main/INFO]: [CHAT] Неправильный пароль.
+[09:03:32] [main/INFO]: [CHAT] Авторизуйтесь, используя /login [пароль].
+[09:03:36] [main/INFO]: [CHAT] Авторизуйтесь, используя /login [пароль].
+[09:03:49] [main/INFO]: Connecting to mc.infinityhvh.com, 25565
+[09:03:54] [main/INFO]: Connecting to connect.funtime.su., 25565
+[09:03:55] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:03:56] [main/INFO]: [CHAT] BotFilter >> Введите номер с картинки в чат
+[09:03:59] [main/INFO]: [CHAT] BotFilter >> Введите номер с картинки в чат
+[09:04:00] [main/INFO]: [CHAT] BotFilter >> Проверка пройдена, приятной игры
+[09:04:00] [main/INFO]: [CHAT] [✾] Войдите в игру ↝ /login <Пароль>
+[09:04:00] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:04:01] [main/INFO]: Loaded 0 advancements
+[09:04:09] [main/INFO]: Connecting to connect.funtime.su., 25565
+[09:04:10] [main/INFO]: [CHAT] [✾] Войдите в игру ↝ /login <Пароль>
+[09:04:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:04:10] [main/WARN]: Unknown custom packed identifier: minecraft:register
+[09:04:10] [main/INFO]: Loaded 0 advancements
+[09:04:15] [main/INFO]: [CHAT] [✾] Войдите в игру ↝ /login <Пароль>
+[09:04:35] [main/INFO]: Connecting to connect.funtime.su., 25565
+[09:04:36] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:04:37] [main/INFO]: [CHAT] BotFilter >> Введите номер с картинки в чат
+[09:04:39] [main/INFO]: [CHAT] BotFilter >> Введите номер с картинки в чат
+[09:04:42] [main/INFO]: [CHAT] BotFilter >> Введите номер с картинки в чат
+[09:04:43] [main/INFO]: [CHAT] BotFilter >> Проверка пройдена, приятной игры
+[09:04:43] [main/INFO]: [CHAT] [✾] Войдите в игру ↝ /login <Пароль>
+[09:04:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:04:43] [main/INFO]: Loaded 0 advancements
+[09:05:06] [main/INFO]: Connecting to connect.funtime.su., 25565
+[09:05:07] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:05:07] [main/INFO]: [CHAT] BotFilter >> Введите номер с картинки в чат
+[09:05:10] [main/INFO]: [CHAT] BotFilter >> Введите номер с картинки в чат
+[09:05:13] [main/INFO]: [CHAT] BotFilter >> Проверка пройдена, приятной игры
+[09:05:13] [main/INFO]: [CHAT] [✾] Войдите в игру ↝ /login <Пароль>
+[09:05:13] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:05:14] [main/INFO]: Loaded 0 advancements
+[09:05:19] [main/INFO]: Connecting to connect.funtime.su., 25565
+[09:05:20] [main/INFO]: [CHAT] [✾] Войдите в игру ↝ /login <Пароль>
+[09:05:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:05:20] [main/WARN]: Unknown custom packed identifier: minecraft:register
+[09:05:20] [main/INFO]: Loaded 0 advancements
+[09:05:27] [main/INFO]: Connecting to connect.funtime.su., 25565
+[09:05:32] [main/INFO]: Connecting to connect.funtime.su., 25565
+[09:05:43] [main/INFO]: Connecting to srv.space-times.ru., 25567
+[09:05:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:05:43] [main/INFO]: [CHAT] ▶ Идет проверка, пожалуйста, подождите...
+[09:05:44] [main/INFO]: [CHAT] ▶ Идет проверка, пожалуйста, подождите...
+[09:05:44] [main/INFO]: [CHAT] ▶ Идет проверка, пожалуйста, подождите...
+[09:05:47] [main/INFO]: [CHAT] ▶ Идет проверка, пожалуйста, подождите...
+[09:05:47] [main/INFO]: [CHAT] ▶ Идет проверка, пожалуйста, подождите...
+[09:05:49] [main/INFO]: [CHAT] ▶ Идет проверка, пожалуйста, подождите...
+[09:05:52] [main/INFO]: [CHAT] ▶ Идет проверка, пожалуйста, подождите...
+[09:05:55] [main/INFO]: [CHAT] ▶ Идет проверка, пожалуйста, подождите...
+[09:05:59] [main/INFO]: Connecting to srv.space-times.ru., 25567
+[09:06:00] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:06:00] [main/WARN]: Unknown custom packed identifier: minecraft:register
+[09:06:01] [main/INFO]: [CHAT] ▶ Авторизуйтесь, используя /login [пароль]
+[09:06:03] [main/INFO]: [CHAT] ▶ Неправильный пароль.
+[09:06:05] [main/INFO]: [CHAT] ▶ Авторизуйтесь, используя /login [пароль]
+[09:06:06] [main/INFO]: [CHAT] ▶ Вы успешно авторизованы!
+[09:06:06] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:06:06] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:06:06] [main/WARN]: Unknown custom packed identifier: minecraft:register
+[09:06:07] [main/INFO]: Loaded 7 advancements
+[09:06:08] [main/FATAL]: Error executing task on Client
+java.lang.NullPointerException: Cannot invoke "im.expensive.Expensive$UserData.getUid()" because "im.expensive.Expensive.userData" is null
+	at net.minecraft.client.gui.screen.inventory.ChestScreen.init(ChestScreen.java:50) ~[client/:?]
+	at net.minecraft.client.gui.screen.Screen.init(Screen.java:386) ~[client/:?]
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:849) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager$IScreenFactory.createScreen(ScreenManager.java:127) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager.openScreen(ScreenManager.java:56) ~[client/:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.handleOpenWindowPacket(ClientPlayNetHandler.java:1130) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:54) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:12) ~[client/:?]
+	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:35) ~[client/:?]
+	at net.optifine.util.PacketRunnable.run(PacketRunnable.java:18) ~[client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:192) [client/:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:28) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:154) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:129) [client/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:950) [client/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:570) [client/:?]
+	at net.minecraft.client.main.Main.main(Main.java:191) [client/:?]
+	at Start.main(Start.java:11) [client/:?]
+[09:06:08] [main/INFO]: [CHAT] ▶ ВНИМАНИЕ! ПРИВЯЖИТЕ СВОЙ АККАУНТ!\n\n   Для безопасности вашего аккаунта рекомендуем\n   привязать свой аккаунт: /link\n\n▶ ВНИМАНИЕ! ПРИВЯЖИТЕ СВОЙ АККАУНТ!\n\n   Для безопасности вашего аккаунта рекомендуем\n   привязать свой аккаунт: /link
+[09:06:09] [main/INFO]: [STDOUT]: null
+[09:06:09] [main/INFO]: [STDOUT]: {PublicBukkitValues:{"deluxemenus:dm":1b},SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZhOGE3NWYzMGU3MDBhM2NlNjg1ZGU4MzVjMGRlYzBhNjY0ZDY3Y2JkNjA4N2VhMjNhZDcxMjMzZjViYmUzZCJ9fX0="}]},Id:[I;1726446290,-1298380915,-1576009749,1515817995]},display:{Lore:['{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"F"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8E6AFE","text":"u"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9A77FE","text":"n"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A783FD","text":"T"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B48FFD","text":"i"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C09BFC","text":"m"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CDA8FB","text":"e"}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"А"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8E6AFE","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9A77FE","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A783FD","text":"р"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B48FFD","text":"х"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C09BFC","text":"и"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CDA8FB","text":"я "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C09BFC","text":"1.16"}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▪"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":" Общий онлайн: "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FBD708","text":"20"},{"italic":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▌"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":" Анархия FunTime представляет из себя"},{"italic":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▌"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":" Анархию с более простым, но не менее"},{"italic":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▌"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":" интересным развитием и процессом игры."},{"italic":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▌"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":" Здесь можно взрывать регионы буквально"},{"italic":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▌"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":" под ноль, получать невозможные"},{"italic":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▌"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":" зачарования, приобрести донат с"},{"italic":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▌"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":" крутейшим набором, сходить в потную"},{"italic":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▌"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":" схватку с топовыми игроками - словом,"},{"italic":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▌"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":" возможностей и особенностей целое море,"},{"italic":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▌"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":" советуем изучить детальнее!"},{"italic":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▶ "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":"Нажмите, чтобы выбрать сервер"},{"italic":false,"text":""}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}'],Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}'}}
+[09:06:09] [main/FATAL]: Error executing task on Client
+java.lang.NullPointerException: Cannot invoke "im.expensive.Expensive$UserData.getUid()" because "im.expensive.Expensive.userData" is null
+	at net.minecraft.client.gui.screen.inventory.ChestScreen.init(ChestScreen.java:50) ~[client/:?]
+	at net.minecraft.client.gui.screen.Screen.init(Screen.java:386) ~[client/:?]
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:849) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager$IScreenFactory.createScreen(ScreenManager.java:127) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager.openScreen(ScreenManager.java:56) ~[client/:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.handleOpenWindowPacket(ClientPlayNetHandler.java:1130) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:54) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:12) ~[client/:?]
+	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:35) ~[client/:?]
+	at net.optifine.util.PacketRunnable.run(PacketRunnable.java:18) ~[client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:192) [client/:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:28) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:154) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:129) [client/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:950) [client/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:570) [client/:?]
+	at net.minecraft.client.main.Main.main(Main.java:191) [client/:?]
+	at Start.main(Start.java:11) [client/:?]
+[09:06:09] [main/INFO]: [STDOUT]: {PublicBukkitValues:{"deluxemenus:dm":1b},SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZhOGE3NWYzMGU3MDBhM2NlNjg1ZGU4MzVjMGRlYzBhNjY0ZDY3Y2JkNjA4N2VhMjNhZDcxMjMzZjViYmUzZCJ9fX0="}]},Id:[I;1726446290,-1298380915,-1576009749,1515817995]},display:{Lore:['{"extra":[{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▌"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"F"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8E6AFE","text":"u"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9A77FE","text":"n"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A783FD","text":"T"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B48FFD","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C09BFC","text":"m"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CDA8FB","text":"e "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D9B4FB","text":"#"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E6C0FA","text":"1"}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▌"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":"Онлайн: "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"19"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":"/"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"150"}],"text":""}','{"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#815EFF","text":"▶ "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFBEC","text":"Нажмите для подключения!"}],"text":""}','{"text":""}'],Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}'}}
+[09:06:10] [main/INFO]: [CHAT] ▶ Подключение...
+[09:06:10] [main/INFO]: [CHAT] Кикнут при подключении funtime1: \n Ваш аккаунт был заблокирован!\n \n BAN ID: №386165\n §FBAN IP: Да\n \n Ваш никнейм: flouz1\n \n Испольнитель:: undert\n По причине: 4.3 | Выход с проверки\n\n Дата бана: 05-09-2025 17:32\n Истекает через: 1 день, 13 часов, 30 минуты\n          \n Купить разбан: www.Space-Times.ru\n Обжаловать бан: discord.gg/zWHVfRhVmV\n 
+[09:06:12] [main/FATAL]: Error executing task on Client
+java.lang.NullPointerException: Cannot invoke "im.expensive.Expensive$UserData.getUid()" because "im.expensive.Expensive.userData" is null
+	at net.minecraft.client.gui.screen.inventory.ChestScreen.init(ChestScreen.java:50) ~[client/:?]
+	at net.minecraft.client.gui.screen.Screen.init(Screen.java:386) ~[client/:?]
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:849) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager$IScreenFactory.createScreen(ScreenManager.java:127) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager.openScreen(ScreenManager.java:56) ~[client/:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.handleOpenWindowPacket(ClientPlayNetHandler.java:1130) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:54) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:12) ~[client/:?]
+	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:35) ~[client/:?]
+	at net.optifine.util.PacketRunnable.run(PacketRunnable.java:18) ~[client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:192) [client/:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:28) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:154) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:129) [client/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:950) [client/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:570) [client/:?]
+	at net.minecraft.client.main.Main.main(Main.java:191) [client/:?]
+	at Start.main(Start.java:11) [client/:?]
+[09:06:19] [main/INFO]: Connecting to faketime.zoomov.wtf., 25565
+[09:06:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:06:20] [main/INFO]: [CHAT] ☄ Пожалуйста, не двигайтесь, идёт проверка!
+[09:06:23] [main/INFO]: Connecting to faketime.zoomov.wtf., 25565
+[09:06:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:06:24] [main/INFO]: [CHAT] ● Логин • /login [Пароль]
+[09:06:51] [main/INFO]: [CHAT] 
+[09:06:51] [main/INFO]: [CHAT] \n● ВНИМАНИЕ! ПРИВЯЖИТЕ СВОЙ АККАУНТ!\n\n   Чтобы узнать как привязать свой\n   аккаунт напишите комманду - /tg\n\n● ВНИМАНИЕ! ПРИВЯЖИТЕ СВОЙ АККАУНТ!\n\n   Чтобы узнать как привязать свой\n   аккаунт напишите комманду - /tg\n\n● ВНИМАНИЕ! ПРИВЯЖИТЕ СВОЙ АККАУНТ!\n\n   Чтобы узнать как привязать свой\n   аккаунт напишите комманду - /tg\n
+[09:06:52] [main/WARN]: Unknown custom packed identifier: minecraft:register
+[09:06:52] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:06:52] [main/WARN]: Unknown custom packed identifier: minecraft:register
+[09:06:52] [main/INFO]: Loaded 0 advancements
+[09:06:52] [main/INFO]: [CHAT]  
+[09:06:52] [main/INFO]: [CHAT]  ▍
+[09:06:52] [main/INFO]: [CHAT]  ▍ Сайт: faketime.su
+[09:06:52] [main/INFO]: [CHAT]  ▍ Тех. Поддержка: t.me/faketimehq
+[09:06:52] [main/INFO]: [CHAT]  ▍ Телеграм канал: t.me/faketimenews
+[09:06:52] [main/INFO]: [CHAT]  ▍ Телеграм канал (Лайт): t.me/fakehwlite
+[09:06:52] [main/INFO]: [CHAT]  ▍ Привязать аккаунт: t.me/faketimesbot
+[09:06:52] [main/INFO]: [CHAT]  ▍ Забанил АнтиЧит: t.me/fakeacbot
+[09:06:52] [main/INFO]: [CHAT]  ▍
+[09:06:52] [main/INFO]: [CHAT]  
+[09:06:53] [main/FATAL]: Error executing task on Client
+java.lang.NullPointerException: Cannot invoke "im.expensive.Expensive$UserData.getUid()" because "im.expensive.Expensive.userData" is null
+	at net.minecraft.client.gui.screen.inventory.ChestScreen.init(ChestScreen.java:50) ~[client/:?]
+	at net.minecraft.client.gui.screen.Screen.init(Screen.java:386) ~[client/:?]
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:849) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager$IScreenFactory.createScreen(ScreenManager.java:127) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager.openScreen(ScreenManager.java:56) ~[client/:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.handleOpenWindowPacket(ClientPlayNetHandler.java:1130) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:54) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:12) ~[client/:?]
+	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:35) ~[client/:?]
+	at net.optifine.util.PacketRunnable.run(PacketRunnable.java:18) ~[client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:192) [client/:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:28) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:154) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:129) [client/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:950) [client/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:570) [client/:?]
+	at net.minecraft.client.main.Main.main(Main.java:191) [client/:?]
+	at Start.main(Start.java:11) [client/:?]
+[09:06:54] [main/INFO]: [STDOUT]: {PublicBukkitValues:{"deluxemenus:dm":1b},SkullOwner:{Properties:{textures:[{Value:"ewogICJ0aW1lc3RhbXAiIDogMTcyNjI3NjEzNDY4MywKICAicHJvZmlsZUlkIiA6ICIwOGRhYjIzODM5NmQ0NzA1YmVkOTY2YTMzZWNjMzJkNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJJSXVvbmVSIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZkZjQ3OWQzNDBmYWUwM2FjZDA2MDcyNjY3OTk5NWQwMmY1YjMwMTU4ZmUzMTNhOWY0MWI5ZWI0MzhmY2UyNjgiCiAgICB9CiAgfQp9"}]},Id:[I;256737627,1801859168,-2117813568,1617397865]},SkullOwnerOrig:[I;-1670847744,-413250499,-1253803652,881994455],display:{Lore:['{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"FunTime"},{"bold":false,"italic":false,"text":" "}],"text":""}','{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"Общий онлайн "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E6966C","text":"1 "}],"text":""}','{"text":""}','{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"• "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"Нажмите, чтобы перейти "}],"text":""}','{"text":""}'],Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'}}
+[09:06:54] [main/FATAL]: Error executing task on Client
+java.lang.NullPointerException: Cannot invoke "im.expensive.Expensive$UserData.getUid()" because "im.expensive.Expensive.userData" is null
+	at net.minecraft.client.gui.screen.inventory.ChestScreen.init(ChestScreen.java:50) ~[client/:?]
+	at net.minecraft.client.gui.screen.Screen.init(Screen.java:386) ~[client/:?]
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:849) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager$IScreenFactory.createScreen(ScreenManager.java:127) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager.openScreen(ScreenManager.java:56) ~[client/:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.handleOpenWindowPacket(ClientPlayNetHandler.java:1130) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:54) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:12) ~[client/:?]
+	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:35) ~[client/:?]
+	at net.optifine.util.PacketRunnable.run(PacketRunnable.java:18) ~[client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:192) [client/:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:28) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:154) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:129) [client/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:950) [client/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:570) [client/:?]
+	at net.minecraft.client.main.Main.main(Main.java:191) [client/:?]
+	at Start.main(Start.java:11) [client/:?]
+[09:06:54] [main/INFO]: [STDOUT]: {PublicBukkitValues:{"deluxemenus:dm":1b},SkullOwner:{Properties:{textures:[{Value:"ewogICJ0aW1lc3RhbXAiIDogMTcyNDQxMDg0NjYzNSwKICAicHJvZmlsZUlkIiA6ICIzYjhmZjcxZjM0N2E0MDg4OWYwYzgyMDFjODg1ODIyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaWdtYU5lZm9yIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JiMzE4YzM2ZTdhNGQwOWJiYzUyMGI5ZWIzMmE5MmRkODI2ZDhmYjRlN2MyM2U5MmY1ZGMyMjRmYjUyNGU1ZGIiCiAgICB9CiAgfQp9"}]},Id:[I;1776498173,1958887118,-1739432547,-727802903]},SkullOwnerOrig:[I;-1858152336,-1995157613,-1395617839,-1217075020],display:{Lore:['{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"HolyWorld"},{"bold":false,"italic":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"Лайт"}],"text":""}','{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"Общий онлайн "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E6966C","text":"20 "}],"text":""}','{"text":""}','{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"• "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"Нажмите, чтобы перейти "}],"text":""}','{"text":""}'],Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'}}
+[09:06:54] [main/FATAL]: Error executing task on Client
+java.lang.NullPointerException: Cannot invoke "im.expensive.Expensive$UserData.getUid()" because "im.expensive.Expensive.userData" is null
+	at net.minecraft.client.gui.screen.inventory.ChestScreen.init(ChestScreen.java:50) ~[client/:?]
+	at net.minecraft.client.gui.screen.Screen.init(Screen.java:386) ~[client/:?]
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:849) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager$IScreenFactory.createScreen(ScreenManager.java:127) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager.openScreen(ScreenManager.java:56) ~[client/:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.handleOpenWindowPacket(ClientPlayNetHandler.java:1130) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:54) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:12) ~[client/:?]
+	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:35) ~[client/:?]
+	at net.optifine.util.PacketRunnable.run(PacketRunnable.java:18) ~[client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:192) [client/:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:28) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:154) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:129) [client/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:950) [client/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:570) [client/:?]
+	at net.minecraft.client.main.Main.main(Main.java:191) [client/:?]
+	at Start.main(Start.java:11) [client/:?]
+[09:06:55] [main/INFO]: [STDOUT]: {PublicBukkitValues:{"deluxemenus:dm":1b},SkullOwner:{Properties:{textures:[{Value:"ewogICJ0aW1lc3RhbXAiIDogMTcyNDQxMDg0NjYzNSwKICAicHJvZmlsZUlkIiA6ICIzYjhmZjcxZjM0N2E0MDg4OWYwYzgyMDFjODg1ODIyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaWdtYU5lZm9yIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JiMzE4YzM2ZTdhNGQwOWJiYzUyMGI5ZWIzMmE5MmRkODI2ZDhmYjRlN2MyM2U5MmY1ZGMyMjRmYjUyNGU1ZGIiCiAgICB9CiAgfQp9"}]},Id:[I;1776498173,1958887118,-1739432547,-727802903]},SkullOwnerOrig:[I;-1858152336,-1995157613,-1395617839,-1217075020],display:{Lore:['{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"HolyWorld"},{"bold":false,"italic":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"Лайт"}],"text":""}','{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"Общий онлайн "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E6966C","text":"20 "}],"text":""}','{"text":""}','{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"• "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"Нажмите, чтобы перейти "}],"text":""}','{"text":""}'],Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'}}
+[09:06:55] [main/INFO]: [STDOUT]: {PublicBukkitValues:{"deluxemenus:dm":1b},SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI2YTBkN2MyMzQ1NGVlMGJhOTViYjMxZTQxNjY2ZjE2MzFiOTFjMmVlNDE3MTFhZjJlOWVmNGIxMTY1YzRhYSJ9fX0="}]},Id:[I;-1218473481,-704432384,-1489744778,-1910364685]},SkullOwnerOrig:[I;-1213178318,-1042398889,-2053890634,-1837425388],display:{Lore:['{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#34FF79","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#34FF79","text":"СолоЛайт #1 "}],"text":""}','{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#34FF79","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"Онлайн "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6BE69C","text":"1"},{"italic":false,"color":"gray","text":"/"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6BE69C","text":"160 "}],"text":""}','{"text":""}','{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#34FF79","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6BE69C","text":"* "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"Здесь"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6BE69C","text":" запрещено быть "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"в"}],"text":""}','{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#34FF79","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"союзе с другими игроками. "}],"text":""}','{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#34FF79","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6BE69C","text":" Нарушение правила — бан."}],"text":""}','{"text":""}','{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#34FF79","text":"• "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"Нажмите, для подключения "}],"text":""}','{"text":""}'],Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'}}
+[09:06:56] [main/INFO]: [CHAT] ● Подключаюсь...
+[09:06:56] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:06:56] [main/WARN]: Unknown custom packed identifier: minecraft:register
+[09:06:56] [main/INFO]: Loaded 0 advancements
+[09:06:56] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:06:58] [main/INFO]: Loaded 15 advancements
+[09:06:59] [main/INFO]: [CHAT] ▶ Вы получили набор pvp. До следующего получения осталось: 0 дн. 0 час. 3 мин. 0 сек.
+[09:06:59] [main/INFO]: [CHAT] ▶ Сбросить ограничение за 19 сапфиров - /kit pvp reset
+[09:07:01] [main/INFO]: [CHAT] Телепортация начнётся через 3 сек.. Не двигайтесь.
+[09:07:05] [main/INFO]: [STDOUT]: null
+[09:07:05] [main/INFO]: [CHAT] Телепортация начинается...
+[09:07:05] [main/INFO]: [CHAT] Телепортация на pvp.
+[09:07:08] [main/INFO]: [CHAT] ▶ Вы вошли на территорию ПВП-арены!
+[09:07:08] [main/INFO]: [CHAT] ▶ Использование эндерперлов возможно только на арене
+[09:07:10] [main/INFO]: Loaded 27 advancements
+[09:07:11] [main/INFO]: [CHAT] ▶ Вы вошли на территорию ПВП-арены!
+[09:07:11] [main/INFO]: [CHAT] ▶ Использование эндерперлов возможно только на арене
+[09:07:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:07:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:07:20] [main/WARN]: Unknown custom packed identifier: minecraft:register
+[09:07:20] [main/INFO]: [CHAT] ● Подключаюсь...
+[09:07:21] [main/INFO]: Loaded 0 advancements
+[09:07:21] [main/INFO]: [CHAT]  
+[09:07:21] [main/INFO]: [CHAT]  ▍
+[09:07:21] [main/INFO]: [CHAT]  ▍ Сайт: faketime.su
+[09:07:21] [main/INFO]: [CHAT]  ▍ Тех. Поддержка: t.me/faketimehq
+[09:07:21] [main/INFO]: [CHAT]  ▍ Телеграм канал: t.me/faketimenews
+[09:07:21] [main/INFO]: [CHAT]  ▍ Телеграм канал (Лайт): t.me/fakehwlite
+[09:07:21] [main/INFO]: [CHAT]  ▍ Привязать аккаунт: t.me/faketimesbot
+[09:07:21] [main/INFO]: [CHAT]  ▍ Забанил АнтиЧит: t.me/fakeacbot
+[09:07:21] [main/INFO]: [CHAT]  ▍
+[09:07:21] [main/INFO]: [CHAT]  
+[09:07:22] [main/FATAL]: Error executing task on Client
+java.lang.NullPointerException: Cannot invoke "im.expensive.Expensive$UserData.getUid()" because "im.expensive.Expensive.userData" is null
+	at net.minecraft.client.gui.screen.inventory.ChestScreen.init(ChestScreen.java:50) ~[client/:?]
+	at net.minecraft.client.gui.screen.Screen.init(Screen.java:386) ~[client/:?]
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:849) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager$IScreenFactory.createScreen(ScreenManager.java:127) ~[client/:?]
+	at net.minecraft.client.gui.ScreenManager.openScreen(ScreenManager.java:56) ~[client/:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.handleOpenWindowPacket(ClientPlayNetHandler.java:1130) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:54) ~[client/:?]
+	at net.minecraft.network.play.server.SOpenWindowPacket.processPacket(SOpenWindowPacket.java:12) ~[client/:?]
+	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:35) ~[client/:?]
+	at net.optifine.util.PacketRunnable.run(PacketRunnable.java:18) ~[client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:192) [client/:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:28) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:154) [client/:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:129) [client/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:950) [client/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:570) [client/:?]
+	at net.minecraft.client.main.Main.main(Main.java:191) [client/:?]
+	at Start.main(Start.java:11) [client/:?]
+[09:07:22] [main/INFO]: [STDOUT]: {PublicBukkitValues:{"deluxemenus:dm":1b},SkullOwner:{Properties:{textures:[{Value:"ewogICJ0aW1lc3RhbXAiIDogMTcyNDQxMDg0NjYzNSwKICAicHJvZmlsZUlkIiA6ICIzYjhmZjcxZjM0N2E0MDg4OWYwYzgyMDFjODg1ODIyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaWdtYU5lZm9yIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JiMzE4YzM2ZTdhNGQwOWJiYzUyMGI5ZWIzMmE5MmRkODI2ZDhmYjRlN2MyM2U5MmY1ZGMyMjRmYjUyNGU1ZGIiCiAgICB9CiAgfQp9"}]},Id:[I;1776498173,1958887118,-1739432547,-727802903]},SkullOwnerOrig:[I;-1858152336,-1995157613,-1395617839,-1217075020],display:{Lore:['{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"HolyWorld"},{"bold":false,"italic":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"Лайт"}],"text":""}','{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"Общий онлайн "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E6966C","text":"19 "}],"text":""}','{"text":""}','{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF633A","text":"• "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"Нажмите, чтобы перейти "}],"text":""}','{"text":""}'],Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'}}
+[09:07:23] [main/INFO]: [STDOUT]: {PublicBukkitValues:{"deluxemenus:dm":1b},SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI2YTBkN2MyMzQ1NGVlMGJhOTViYjMxZTQxNjY2ZjE2MzFiOTFjMmVlNDE3MTFhZjJlOWVmNGIxMTY1YzRhYSJ9fX0="}]},Id:[I;-1218473481,-704432384,-1489744778,-1910364685]},SkullOwnerOrig:[I;-1213178318,-1042398889,-2053890634,-1837425388],display:{Lore:['{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"#34FF79","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#34FF79","text":"КланЛайт #2 "}],"text":""}','{"extra":[{"text":" "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#34FF79","text":"▍"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"Онлайн "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6BE69C","text":"18"},{"italic":false,"color":"gray","text":"/"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6BE69C","text":"160 "}],"text":""}','{"text":""}','{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#34FF79","text":"• "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCFCE3","text":"Нажмите, для подключения "}],"text":""}','{"text":""}'],Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'}}
+[09:07:23] [main/INFO]: [CHAT] ● Подключаюсь...
+[09:07:23] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:07:23] [main/WARN]: Unknown custom packed identifier: minecraft:register
+[09:07:24] [main/INFO]: Loaded 15 advancements
+[09:07:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:07:26] [main/INFO]: [CHAT] ɢ | Amalgama: я общаюсь с людьми
+[09:07:27] [main/INFO]: [CHAT] Телепортация начнётся через 3 сек.. Не двигайтесь.
+[09:07:30] [main/INFO]: [CHAT] Телепортация начинается...
+[09:07:30] [main/INFO]: [CHAT] Телепортация на pvp.
+[09:07:31] [main/INFO]: [CHAT] ▶ Вы вошли на территорию ПВП-арены!
+[09:07:31] [main/INFO]: [CHAT] ▶ Использование эндерперлов возможно только на арене
+[09:07:31] [main/INFO]: [CHAT] ɢ | Amalgama: как в жизни, так и в кубах
+[09:07:39] [main/INFO]: [CHAT] ɢ | padshiyyy: и всё
+[09:07:43] [main/INFO]: [CHAT] ɢ | padshiyyy: привет привет пока пока
+[09:07:44] [main/INFO]: [CHAT] Хэй! Извините, но Вам нельзя использовать это здесь.
+[09:07:46] [main/INFO]: Loaded 27 advancements
+[09:07:53] [main/INFO]: [CHAT] ▶ Вы вошли на территорию ПВП-арены!
+[09:07:53] [main/INFO]: [CHAT] ▶ Использование эндерперлов возможно только на арене
+[09:08:10] [main/INFO]: Loaded 27 advancements
+[09:08:11] [main/INFO]: [CHAT] ɢ | Amalgama: ты такую не связанную хуйню несёшь
+[09:08:16] [main/INFO]: [CHAT] ɢ | Amalgama: к чему вопрос про общение?
+[09:08:20] [main/INFO]: [STDOUT]: null
+[09:08:23] [main/INFO]: Loaded 27 advancements
+[09:08:23] [main/INFO]: [CHAT] ▶ Вы сможете использовать этот предмет через 300 секунд.
+[09:08:23] [main/INFO]: [CHAT] ▶ Вы сможете использовать этот предмет через 300 секунд.
+[09:08:32] [main/INFO]: [CHAT] ɢ | Amalgama: как это касаеться твоего отсутствия навыка расставлять запятые?
+[09:08:39] [main/INFO]: [CHAT] ɢ | padshiyyy: не просто я уверен что у тебя сальные волосы прыщи на всём ебальнике и к этому лишний вес
+[09:08:50] [main/INFO]: Stopping!
