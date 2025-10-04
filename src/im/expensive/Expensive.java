@@ -36,6 +36,7 @@ import im.expensive.utils.TPSCalc;
 import im.expensive.utils.client.ServerTPS;
 import im.expensive.utils.drag.DragManager;
 import im.expensive.utils.drag.Dragging;
+import im.slayclient.SlayClient;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -116,6 +117,8 @@ public class Expensive {
     private final EventBus eventBus = new EventBus();
     private final ScriptManager scriptManager = new ScriptManager();
 
+    private final SlayClient slayClient = SlayClient.getInstance();
+
     // Директории
     private final File clientDir = new File(Minecraft.getInstance().gameDir + "\\expensive");
     private final File filesDir = new File(Minecraft.getInstance().gameDir + "\\expensive\\files");
@@ -193,6 +196,7 @@ public class Expensive {
         }
         DragManager.load();
         dropDown = new DropDown(new StringTextComponent(""));
+        slayClient.initialize();
         initAutoBuy();
         autoBuyUI = new Window(new StringTextComponent(""), itemStorage);
         //autoBuyUI = new AutoBuyUI(new StringTextComponent("A"));
@@ -210,6 +214,11 @@ public class Expensive {
         eventBus.post(eventKey);
 
         macroManager.onKeyPressed(key);
+
+        if (key == GLFW.GLFW_KEY_ESCAPE && Minecraft.getInstance().currentScreen == null) {
+            slayClient.openScreen();
+            return;
+        }
 
         if (key == GLFW.GLFW_KEY_RIGHT_SHIFT) {
             Minecraft.getInstance().displayGuiScreen(dropDown);
